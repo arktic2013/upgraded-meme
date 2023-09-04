@@ -5,10 +5,10 @@
 //-3 -> нет
 //7 -> нет
 
-Console.WriteLine("Введите целое число");
+Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
-int event = number * number;
-Console.WritLine($"Число {number = event}");
+int  = number / 2 ;
+Console.WriteLine($"");
 
     
 
