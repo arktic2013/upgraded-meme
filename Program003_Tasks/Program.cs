@@ -7,8 +7,8 @@
 
 Console.WriteLine("Введите целое число");
 int number = Convert.ToInt32(Console.ReadLine());
-int event = number / number;
-Console.WritLine($"Число {number} = {event}");
+int event = number * number;
+Console.WritLine($"Число {number = event}");
 
     
 
