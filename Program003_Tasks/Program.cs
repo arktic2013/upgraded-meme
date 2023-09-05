@@ -5,10 +5,17 @@
 //-3 -> нет
 //7 -> нет
 
-Console.WriteLine("Введите число");
-int number = Convert.ToInt32(Console.ReadLine());
-int  = number / 2 ;
-Console.WriteLine($"");
+Console.WriteLine("Введите  число");
+int numberA = Convert.ToInt32(Console.ReadLine());
 
-    
 
+
+
+if (numberA % 2 == 0)
+{
+    Console.WriteLine($"{numberA} = да");
+}
+else
+{
+    Console.WriteLine($"{numberA} = нет");
+}
